@@ -1,12 +1,12 @@
-csscoveragejs
+CSSCoverageJS
 =============
 
 A CSS coverage tool written in JavaScript which runs in the browser.
 
 The CSS coverage tool reports the CSS rules which are actual usaged. 
 
-Steps in building the csscoveragejs tool:
-
+Creating the CSSCoverageJS tool
+===============================
 Step 1:
 Find a CSS parser that runs in the browser. This blog is suggesting Gonzales as the best CSS parser written in JavaScript.
 
