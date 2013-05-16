@@ -9,8 +9,10 @@ Steps in building the csscoveragejs tool:
 
 Step 1:
 Find a CSS parser that runs in the browser. This blog is suggesting Gonzales as the best CSS parser written in JavaScript.
+
 Step 2:
 Find a CSS selector engine. JQuery should do this trick.
+
 Step 3:
 Combine the CSS parser and CSS selector engine. Parse css, query these selectors and store the number of hits.
 
