@@ -3,7 +3,7 @@ CSSCoverageJS
 
 A CSS coverage tool written in JavaScript.
 
-The CSS coverage tool reports the CSS rules which are actual usaged. 
+The CSS coverage tool reports the CSS rules which are matching the DOM. 
 
 Creating the CSSCoverageJS tool
 ===============================
