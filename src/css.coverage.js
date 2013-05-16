@@ -2,7 +2,7 @@ var CSSCoverage = (function(srcToCSSP, $){
     
     return function () {
         var _aCSSAST,
-        _sCSS;
+            _sCSS;
     
         /**
          * Set CSS.
