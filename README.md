@@ -1,9 +1,9 @@
 csscoveragejs
 =============
 
-A CSS coverage tool written in JavaScript and runs in the browser.
+A CSS coverage tool written in JavaScript which runs in the browser.
 
-The CSS coverage tool reports the CSS rules which are styling a given HTML. 
+The CSS coverage tool reports the CSS rules which are actual usaged. 
 
 Steps in building the csscoveragejs tool:
 
