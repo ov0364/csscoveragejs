@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<script type="text/javascript" src="lib/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="lib/gonzales.cssp.web.js"></script>
+		<script type="text/javascript" src="src/css.coverage.js"></script>
+		
+		<script>
+            $(document).ready(function(){
+	            var sCSS = 'div { color : red }\n.clazz { color : blue }',
+	                cssCoverage = new CSSCoverage(),
+	                aCSSAST;
+	            
+	            cssCoverage.setCSS(sCSS);
+
+	            cssCoverage.execute();
+	            
+	            aCSSAST = cssCoverage.getCSSAST();
+	            
+	            console.log("CSS AST Coverage : ", {cssASTCoverage:aCSSAST});
+			});			
+		</script>
+	</head>
+	<body>
+		<div></div>
+		<div class="clazz" ></div>
+	</body>
+</html>
